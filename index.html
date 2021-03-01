@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+            @font-face {
+                font-family: Metric;
+                src: url('font/MetricWeb-Regular.eot'); 
+                src: url("font/MetricWeb-Regular.eot?#iefix") format("embedded-opentype"),
+                     url("font/MetricWeb-Regular.woff") format("woff"), 
+                     url('font/MetricWeb-Regular.ttf')format('truetype'),
+                     url("font/MetricWeb-Regular.svg#svgFontName") format("svg");
+            }
+        
+            h1 {
+                font-family: Metric
+            }
+            .banner {
+                background: url('images/herohob.jpg');
+                height: 383px;
+                background-position: center 0%;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+                display: flex;
+                align-items: center;
+                padding-left: 136px;
+            }
+            .header {
+                margin: 0 136px;
+                display: flex;
+                align-items: center;
+            }
+            body {
+                background-color: rgb(15, 16, 18);
+            }
+            .nav-item {
+                color: #c3c4c7;
+                font-family: Metric;
+                font-size: 17px;
+                font-weight: 300;
+                margin-right: 45px;
+                text-decoration: none;
+            }
+            .logo {
+                margin-right: 60px;
+            }
+            .intro {
+                height: 300px;
+                width: 400px;
+                background-color: black;
+                padding: 20px 0 20px 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            .intro-title {
+                font-family: Metric;
+                font-size: 48px;
+                font-weight: 300px;
+                color: #dec117;
+                text-transform: uppercase;
+                margin-bottom: 30px;
+            }
+            .intro-subtitle {
+                font-family: Metric;
+                font-size: 20px;
+                font-weight: 300px;
+                color: #dec117;
+                text-transform: uppercase;
+            }
+            .intro-read-more-btn {
+                font-family: Metric;
+                font-size: 20px;
+                font-weight: 300;
+                background-color: #dec117;
+                color: #ffffff;
+                text-transform: uppercase;
+                width: 130px;
+                border: none;
+                height: 30px;
+                cursor: pointer;
+            }
+            .hobs {
+                color: #ffffff;
+                font-family: Metric;
+                font-size: 40px;
+                font-weight: 300;
+                display: flex;
+                justify-content: center;
+                margin: 30px 0px;
+                text-transform: uppercase;
+            }
+            .card-title {
+                color: #aaaaac;
+                font-family: Metric;
+                font-size: 24px;
+                font-weight: 300;
+                text-transform: uppercase;
+                margin-bottom: 25px;
+                text-align:center
+            }
+            .card-description {
+                color: #aaaaac;
+                font-family: Metric;
+                font-size: 18px;
+                font-weight: 300;
+                margin-bottom: 20px;
+            }
+            .products {
+                margin: 0 136px;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .product-card {
+                width: calc((100% - 100px*2)/3);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .card-img {
+                margin-bottom: 25px;
+            }
+            .card-btn {
+                width: 100%;
+                background-color: #dec117;
+                border: none;
+                height: 31px;
+                color: #ffffff;
+            }
+            .card-price {
+                color: #ffffff;
+                font-family: Metric;
+                font-size: 30px;
+                font-weight: 300;
+                width: 10;
+                width: 100%;
+                padding-top: 15px;
+            }
+            .w-100{
+                width: 100%;
+            }
+            .footer {
+                color: #aaaaac;
+                font-family: Metric;
+                text-align: center;
+                border-top: 1px solid #aaaaac;
+            }
+            .products-block {
+                margin-bottom: 60px;
+            }
+        </style>
+        <title>Langding page</title>
+    </head>
+    <body>  
+            <div class="header">
+                <a class="logo" href="/" aria-label="Return home">
+                    <img src="images/logo.svg" />
+                </a>
+                <a class="nav-item" href="/">Product</a>
+                <a class="nav-item" href="/">About Us</a>
+            </div>
+            <div class="banner">
+                <div class="intro">
+                    <div class="intro-block1">
+                        <div class="intro-title">hobs</div>
+                        <div class="intro-subtitle">accessories & spare parts</div>
+                    </div>
+                    <button class="intro-read-more-btn">read more</button>
+                </div>
+            </div>
+            <div class="products-block">
+                <did class="hobs">hobs</did>
+                <div class="products">
+                    <div class="product-card">
+                        <div>
+                            <img class="card-img" height="200px" width="200px" src="images/hob1.png" alt="hob1">
+                            <div class="card-title">placa de inducción de 36 cm sdawdawda</div>
+                            <div class="card-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro cupiditate ducimus, laborum deleniti excepturi vel perspiciatis quis, consequatur consectetur dicta quos veniam delectus, doloribus minima eum. Labore quaerat ipsa inventore!
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro cupiditate ducimus, laborum deleniti excepturi vel
+                                perspiciatis quis, consequatur consectetur dicta quos veniam delectus, doloribus minima eum. Labore quaerat ipsa
+                                inventore!
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro cupiditate ducimus, laborum deleniti excepturi vel
+                                perspiciatis quis, consequatur consectetur dicta quos veniam delectus, doloribus minima eum. Labore quaerat ipsa
+                                inventore!
+                            </div>
+                        </div>
+                        <div class="w-100">
+                            <button class="card-btn">View Product</button>
+                            <div class="card-price">6.305.000 VN</div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div>
+                            <img class="card-img" height="200px" width="200px" src="images/hob2.png" alt="hob1">
+                            <div class="card-title">placa de inducción de 36 cm</div>
+                            <div class="card-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro cupiditate ducimus,
+                                laborum deleniti excepturi vel perspiciatis quis, consequatur consectetur dicta quos veniam delectus, doloribus
+                                minima eum. Labore quaerat ipsa inventore!</div>
+                        </div>
+                        <div class="w-100">
+                            <button class="card-btn">View Product</button>
+                            <div class="card-price">6.305.000 VN</div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div>
+                            <img class="card-img" height="200px" width="200px" src="images/hob3.png" alt="hob1">
+                            <div class="card-title">placa de inducción de 36 cm</div>
+                            <div class="card-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro cupiditate ducimus,
+                                laborum deleniti excepturi vel perspiciatis quis, consequatur consectetur dicta quos veniam delectus, doloribus
+                                minima eum. Labore quaerat ipsa inventore!</div>
+                        </div>
+                        <div class="w-100">
+                            <button class="card-btn">View Product</button>
+                            <div class="card-price">6.305.000 VN</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <p>&copy; 2018 Niteco Viet Nam</p>
+            </div>
+    </body>
+</html>
