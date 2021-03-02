@@ -34,6 +34,8 @@
             }
             body {
                 background-color: rgb(15, 16, 18);
+                display: flex;
+                justify-content: center;
             }
             .nav-item {
                 color: #c3c4c7;
@@ -152,10 +154,19 @@
             .products-block {
                 margin-bottom: 60px;
             }
+            .align-center {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .layout {
+                max-width: 1440px;
+            }
         </style>
         <title>Langding page</title>
     </head>
     <body>  
+        <div class="layout">
             <div class="header">
                 <a class="logo" href="/" aria-label="Return home">
                     <img src="images/logo.svg" />
@@ -176,7 +187,7 @@
                 <did class="hobs">hobs</did>
                 <div class="products">
                     <div class="product-card">
-                        <div>
+                        <div class="align-center">
                             <img class="card-img" height="200px" width="200px" src="images/hob1.png" alt="hob1">
                             <div class="card-title">placa de inducción de 36 cm sdawdawda</div>
                             <div class="card-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro cupiditate ducimus, laborum deleniti excepturi vel perspiciatis quis, consequatur consectetur dicta quos veniam delectus, doloribus minima eum. Labore quaerat ipsa inventore!
@@ -194,7 +205,7 @@
                         </div>
                     </div>
                     <div class="product-card">
-                        <div>
+                        <div class="align-center">
                             <img class="card-img" height="200px" width="200px" src="images/hob2.png" alt="hob1">
                             <div class="card-title">placa de inducción de 36 cm</div>
                             <div class="card-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro cupiditate ducimus,
@@ -207,7 +218,7 @@
                         </div>
                     </div>
                     <div class="product-card">
-                        <div>
+                        <div class="align-center">
                             <img class="card-img" height="200px" width="200px" src="images/hob3.png" alt="hob1">
                             <div class="card-title">placa de inducción de 36 cm</div>
                             <div class="card-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro cupiditate ducimus,
@@ -224,5 +235,6 @@
             <div class="footer">
                 <p>&copy; 2018 Niteco Viet Nam</p>
             </div>
+        </div>
     </body>
 </html>
